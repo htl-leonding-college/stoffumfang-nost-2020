@@ -41,18 +41,18 @@ Jahrgänge:
 und Rollen im Software Engineering sowohl erklären als auch kontextbezogen interpretieren;
 - die für ein Software-Entwicklungsprojekt geeigneten Methoden und Werkzeuge des Software Engineerings – ausgehend von Beispielen, Fallstudien oder Praxisprojekten – sowohl erklären als
 auch auswählen und theoriebasiert anwenden;
--bestehende IKT-Systeme und Geschäftsprozesse analysieren und darstellen um dafür Lösungskonzepte und Umsetzungsstrategien für Software- und Systementwicklungsprojekte zu erarbeiten.
+- bestehende IKT-Systeme und Geschäftsprozesse analysieren und darstellen um dafür Lösungskonzepte und Umsetzungsstrategien für Software- und Systementwicklungsprojekte zu erarbeiten.
 
 ===== Lehrstoff
 
-- Software Engineering,
-- Vorgehens- und Prozessmodelle für die Softwareentwicklung,
-- Rollen im Softwaredevelopementprozess.
-- Methoden für
--- Ist-Erhebung,
--- Analyse,
--- Entwurf,
--- Entwicklung und Qualitätssicherung
+* Software Engineering,
+* Vorgehens- und Prozessmodelle für die Softwareentwicklung,
+* Rollen im Softwaredevelopment-Prozess.
+* Methoden für
+** Ist-Erhebung,
+** Analyse,
+** Entwurf,
+** Entwicklung und Qualitätssicherung
 im Software Engineering.
 
 
@@ -119,11 +119,13 @@ IMPORTANT: Die deutschen Übersetzungen der englischen Begriffe sind zu lernen.
 ==== Inhaltlich
 
 ===== Pflichtenheft (System Specification)
-===== Arbeiten mit Scrum
+===== Scrum
 
+- Scrum - Einsatzgebiete, Komponenten und Anwendung erläutern
 - Theme / Epic / User Story / Task
 - Product Backlog
 - Sprint Backlog
+- usw.
 
 ==== Technische Umsetzung
 
