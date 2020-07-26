@@ -1,6 +1,6 @@
 = NOSt-Prüfungen
 :icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
+//:sectnums:    // Nummerierung der Überschriften / section numbering
 //:toc: left
 
 
@@ -8,4 +8,4 @@
 - https://htl-leonding-college.github.io/stoffumfang-nost-2020/stoffumfang.html[ITP3]
 - [NVS4]
 
-Stehe für Fragen per meil und per Discord zur Verügung.
+Stehe für Fragen per mail und per Discord zur Verügung.

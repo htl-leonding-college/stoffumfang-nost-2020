@@ -1,7 +1,15 @@
 = Vereinbarter Stoffumfang ITP3 / SYP 3
+:author: Thomas W. Stütz
+:revnumber: 1.0.0
+:revdate: 2020-07-26
+:revremark: NOSt-Prüfungen 2020SS
+:encoding: utf-8
 :icons: font
 :sectnums:    // Nummerierung der Überschriften / section numbering
 :toc: left
+:experimental:
+
+Version {revnumber}
 
 Gegenstände:
 
