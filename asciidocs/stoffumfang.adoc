@@ -1,0 +1,151 @@
+= Vereinbarter Stoffumfang ITP3 / SYP 3
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+Gegenstände:
+
+- ITP - Informationstechnische Projekte (6. Semester)
+- SYP - Systemplanung und Projektentwicklung (6. Semester)
+
+Jahrgänge:
+
+- 3ahitm/2020SS
+- 3ahif/2020SS
+
+== Gesetzlicher Lehrplan lt. Beiblatt zum Zeugnis
+
+=== ITP
+
+==== Bereich Durchführung informationstechnischer Projekte
+- theoretische Grundlagen des Projektmanagements im Rahmen von fachübergreifenden technischen Projekten anwenden;
+- Modelle zur Bewältigung von Krisen, Chancen und Konflikten einsetzen.
+
+===== Lehrstoff
+- Realisierung informationstechnischer Projekte unter Vorgabe des Projektauftrages und unter Berücksichtigung von Themenbereichen der technischen Pflichtgegenstände.
+- Planung und Umsetzung der Phasen im Projektmanagement verbunden mit der entsprechenden Dokumentation.
+
+=== SYP
+
+==== Bildungs- und Lehraufgabe
+
+- die theoretischen Grundlagen, Rahmenbedingungen, Prozesse, Vorgehensmodelle, Kompetenzen
+und Rollen im Software Engineering sowohl erklären als auch kontextbezogen interpretieren;
+- die für ein Software-Entwicklungsprojekt geeigneten Methoden und Werkzeuge des Software Engineerings – ausgehend von Beispielen, Fallstudien oder Praxisprojekten – sowohl erklären als
+auch auswählen und theoriebasiert anwenden;
+-bestehende IKT-Systeme und Geschäftsprozesse analysieren und darstellen um dafür Lösungskonzepte und Umsetzungsstrategien für Software- und Systementwicklungsprojekte zu erarbeiten.
+
+===== Lehrstoff
+
+- Software Engineering,
+- Vorgehens- und Prozessmodelle für die Softwareentwicklung,
+- Rollen im Softwaredevelopementprozess.
+- Methoden für
+-- Ist-Erhebung,
+-- Analyse,
+-- Entwurf,
+-- Entwicklung und Qualitätssicherung
+im Software Engineering.
+
+
+==== Bildungs- und Lehraufgabe
+
+- bestehende IKT-Systeme und Geschäftsprozesse analysieren und darstellen um dafür Lösungskonzepte und Umsetzungsstrategien für Software- und Systementwicklungsprojekte zu erarbeiten.
+
+===== Lehrstoff
+
+- Anforderungsanalyse und -beschreibung,
+- Aufwandsschätzung,
+- Qualitätsmanagement und Produktdokumentation,
+- Wartung.
+
+
+== Konkretisierung für NOSt-Prüfung (sowohl für SYP als auch ITP)
+
+=== Arbeiten mit Git und GitHub
+
+. Überblick und Architektur
+.. Was ist https://www.ionos.at/digitalguide/websites/web-entwicklung/git-tutorial/[Git]? (verteiltes Versionsverwaltungssystem)
+.. Was ist ein Versionsverwaltungssystem?
+.. Unterschied verteilte und zentrale Versionsverwaltungssysteme (grafische Darstellung)
+.. Unterschied Git und GitHub
+. Grundlegende Arbeitsabläufe erläutern können:
+.. Was ist ein `git add ...`?
+.. Was ist ein commit?
+.. Was ist ein push?
+.. Was ist ein Softwarebranch?
+.. Wofür werden Branches erstellt?
+.. Was ist ein merge?
+.. Was ist ein Tag?
+.. Wofür werden Tags verwendet?
+.. Was ist ein Fork?
+.. Was ist ein https://blog.seibert-media.net/blog/2014/05/12/git-workflows-der-pull-request-workflow-teil-1/[Pull-Request]
+(Beispiel für einen https://blog.seibert-media.net/blog/2014/05/13/git-workflows-der-pull-request-workflow-teil-2/[Pull-Request])
+.. Einsatzgebiet von GitHub-Templates?
+. Grundlegende Arbeitsarbläufe in Git (GitHub) durchführen (sowohl in Konsole als auch *IntelliJ Ultimate*):
+.. Anlegen eines Software-Repositories (Repo)
+.. Commit eines Repos
+.. Branch eines Repos
+.. Merge eines Repos
+.. Wie kann man den Branch der lokalen Arbeitkopie wechseln?
+.. Durchführen eines Pull-Requests
+.. Was ist der Unterschied zwischen einem "normalen Repo" und einem Template?
+.. Wie kann man ein GitHub-Template erstellen?
+
+IMPORTANT: Die deutschen Übersetzungen der englischen Begriffe sind zu lernen.
+
+=== Softwarequalitätsmanagement
+
+. V-Modell darstellen und erläutern
+.. Welche Arten von Tests gibt es im V-Modell (Erläuterung)
+.. Wo sind die Datenbank-Tests im V-Modell ersichtlich?
+. Testen mit jUnit5, AssertJ, AssertJ-DB
+.. Erläutern der Architektur des zu testenden Software-Systems (Einschränkung auf JavaFX-Anwendung mit JDBC-Zugriff auf DerbyDb)
+.. Teststrategien aufzählen und erläutern
+.. CRUD-Funktionalität testen (unter besonderer Beachtung von Referenzen zwischen Objekten)
+.. Unidirektionale-Beziehungen / Bidirektionale Beziehungen testen
+
+
+=== Dokumentation
+
+==== Inhaltlich
+
+===== Pflichtenheft (System Specification)
+===== Arbeiten mit Scrum
+
+- Theme / Epic / User Story / Task
+- Product Backlog
+- Sprint Backlog
+
+==== Technische Umsetzung
+
+. Erläuterung von AsciiDoc und https://docplayer.org/9293416-Asciidoctor-dokumentation-schreiben-kann-spass-machen.html[AsciiDoctor]
+. Unterschied AsciiDoc und Asciidoctor?
+. Ausgabeformate von AsciiDoctor?
+. Warum wird Docker verwendet?
+. Erläuterung des Docker-Skripts in https://github.com/htl-leonding-college/asciidoctor-docker-template[asciidoctor-docker-template]
+. Einstellungsmöglichkeiten im *Document Header* (Präambel)
+.. Inhaltsverzeichnis
+.. Icon-Font
+.. image-dir
+.. usw.
+. Was ist ein Callout?
+. Wie können Tabellen erstellt werden?
+. Wie werden Bilder eingebunden?
+. Wie werden UML-Diagramme erstellt?
+. Welche Arten von Blocks gibt es?
+.. Admonition Blocks
+.. Source Code Blocks
+.. usw.
+. Conditional Directives
+. Einbinden von source code
+. Deployment in gh-Pages
+.. Erläutern der grundsätzlichen Funktionsweise
+.. Varianten
+... doc-Folder
+... doc-Branch
+
+==== Source
+
+- https://share.stoeps.de/Froscon14-DocumentationWithAnyEditor.html[Documentation With Any Editor]
+- https://docplayer.org/9293416-Asciidoctor-dokumentation-schreiben-kann-spass-machen.html[AsciiDoctor]
