@@ -1,2 +1,4 @@
 build-docs-pdf/
+gh-pages/
 
+.DS_Store
